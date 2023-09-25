@@ -1,3 +1,19 @@
+ul,
+ol,
+menu {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: currentColor;
+}
+
+.figure > img {
+    width: 230px;
+    height: 260px;
+}
+
 /* palette colori */
 
 :root {
@@ -5,11 +21,67 @@
     --light-blue: #3A546D;
     --aquamarine: #1ABC9C;
     --light: #ffffff;
+    --dark-gray: #333333;
 }
 
 .topbar {
     background-color: var(--dark-blue);
 }
+
+.hero {
+    background-color: var(--aquamarine);
+}
+
+.hero .star-icon::before {
+    content: "";
+    position: absolute;
+    display: inline;
+    height: 5px;
+    width: 145px;
+    border-radius: 999px;
+    top: 10px;
+    right: 40px;
+    background-color: var(--light);
+    }
+
+.hero .star-icon::after {
+    content: "";
+    position: absolute;
+    display: inline;
+    height: 5px;
+    width: 145px;
+    border-radius: 999px;
+    top: 10px;
+    left: 40px;
+    background-color: var(--light);
+    }
+
+.portfolio .star-icon::before {
+    content: "";
+    position: absolute;
+    display: inline;
+    height: 5px;
+    width: 145px;
+    border-radius: 999px;
+    top: 10px;
+    right: 40px;
+    background-color: var(--dark-gray);
+    }
+
+.portfolio .star-icon::after {
+    content: "";
+    position: absolute;
+    display: inline;
+    height: 5px;
+    width: 145px;
+    border-radius: 999px;
+    top: 10px;
+    left: 40px;
+    background-color: var(--dark-gray);
+    }
+
+
+
 
 /* @media (min-width: 576px) { ... }
 

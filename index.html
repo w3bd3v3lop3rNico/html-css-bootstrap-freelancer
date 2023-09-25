@@ -15,21 +15,102 @@
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    <section class="topbar text-light">
+    <!-- topbar -->
+    <header class="topbar text-light text-uppercase">
         <aside class="container container-lg container-xlg">
-            <div class="row justify-content-between flex-nowrap align-items-center">
-                <div class="col-sm-auto">
+            <div class="row justify-content-between flex-nowrap align-items-center flex-shrink-1">
+                <div class="col-auto">
                     <h3>Start Bootstrap</h3>
                 </div>
-                <div class="col-sm-auto">
-                    <div><i class="fa-solid fa-list-ul"></i></div>
-
+                <div class="col-auto ">
+                    <div class="d-md-none"><i class="fa-solid fa-list-ul"></i></div>
+                    <ul class="d-flex list-group-horizontal-md hstack gap-3">
+                        <li><a href="#">Portfolio</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
                 </div>
             </div>
-
         </aside>
-    </section>
-    
-    
+    </header>
+    <main>
+        <!-- hero -->
+        <section class="hero text-light text-uppercase">
+            <div class="container">
+                <div class="hero-body text-center">
+                    <figure class="figure d-block">
+                        <img src="./img/avatar.svg" class="figure-img img-fluid" alt="">
+                        
+                    </figure>
+                    <h1>Start Bootstrap</h1>
+                    <span class="align-middle position-relative star-icon"><i class="fa-solid fa-star"></i></span>
+                    <div>Graphic artist - Web designer - Illustrator</div>
+                </div>
+            </div>
+        </section>
+        <!-- portfolio -->
+        <section class="portfolio text-uppercase">
+            <div class="container container-lg container-xlg">
+                <div class="row text-center">
+                    <div class="col-12 "><h2>Portfolio</h2></div>
+                    <div class="col-12"><span class="align-middle position-relative star-icon"><i class="fa-solid fa-star"></i></span></div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12 col-md-6 col-lg-4">
+                        <div class="card">
+                            <div>
+                                <img src="./img/cabin.png" class="card-img" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-4">
+                        <div class="card">
+                            <div>
+                                <img src="./img/cake.png" class="card-img" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-4">
+                        <div class="card">
+                            <div>
+                                <img src="./img/circus.png" class="card-img" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-4">
+                        <div class="card">
+                            <div>
+                                <img src="./img/game.png" class="card-img" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-4">
+                        <div class="card">
+                            <div>
+                                <img src="./img/safe.png" class="card-img" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-4">
+                        <div class="card">
+                            <div>
+                                <img src="./img/submarine.png" class="card-img" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="about">
+            <div class=" container-sm container-lg container-xlg">
+                <div class="row text-center">
+                    <div class="col-12 "><h2>Portfolio</h2></div>
+                    <div class="col-12"><span class="align-middle position-relative star-icon"><i class="fa-solid fa-star"></i></span></div>
+                </div>
+
+            </div>
+        </section>
+
+    </main>
 </body>
 </html>
