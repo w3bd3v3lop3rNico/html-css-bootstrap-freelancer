@@ -1,0 +1,26 @@
+/* palette colori */
+
+:root {
+    --dark-blue: #2C3E50;
+    --light-blue: #3A546D;
+    --aquamarine: #1ABC9C;
+    --light: #ffffff;
+}
+
+.topbar {
+    background-color: var(--dark-blue);
+}
+
+/* @media (min-width: 576px) { ... }
+
+
+@media (min-width: 768px) { ... }
+
+
+@media (min-width: 992px) { ... }
+
+
+@media (min-width: 1200px) { ... }
+
+
+@media (min-width: 1400px) { ... } */
