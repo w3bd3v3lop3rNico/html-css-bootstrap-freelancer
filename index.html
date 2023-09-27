@@ -16,9 +16,9 @@
 </head>
 <body>
     <!-- topbar -->
-    <header class="topbar text-light text-uppercase">
-        <aside class="container container-lg container-xlg">
-            <div class="row justify-content-between flex-nowrap align-items-center flex-shrink-1">
+    <header class="topbar text-light text-uppercase py-2 py-4-lg">
+        <nav class="container container-lg container-xlg">
+            <div class="row justify-content-between align-items-center flex-shrink-1 ">
                 <div class="col-auto">
                     <h3>Start Bootstrap</h3>
                 </div>
@@ -31,11 +31,11 @@
                     </ul>
                 </div>
             </div>
-        </aside>
+        </nav>
     </header>
     <main>
         <!-- hero -->
-        <section class="hero text-light text-uppercase">
+        <section class="hero text-light text-uppercase py-3 py-5-lg">
             <div class="container">
                 <div class="hero-body text-center">
                     <figure class="figure d-block">
@@ -49,9 +49,9 @@
             </div>
         </section>
         <!-- portfolio -->
-        <section class="portfolio text-uppercase">
+        <section class="portfolio text-uppercase py-3 py-5-lg">
             <div class="container container-lg container-xlg">
-                <div class="row text-center">
+                <div class="row text-center my-3">
                     <div class="col-12 "><h2>Portfolio</h2></div>
                     <div class="col-12"><span class="align-middle position-relative star-icon"><i class="fa-solid fa-star"></i></span></div>
                 </div>
@@ -101,21 +101,46 @@
                 </div>
             </div>
         </section>
-        <section class="about text-light">
+        <section class="about text-light py-3 py-5-lg">
             <div class=" container-sm container-md container-xlg">
-                <div class="row text-center">
+                <div class="row text-center my-3">
                     <div class="col-12 text-uppercase"><h2>Portfolio</h2></div>
                     <div class="col-12"><span class="align-middle position-relative star-icon"><i class="fa-solid fa-star"></i></span></div>
                 </div>
                 <div class="row justify-content-center">
-                    <div class="col-lg-6">
+                    <div class="col-lg-5">
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus voluptas, fugit velit quam iure quia corporis qui rem nesciunt totam, distinctio mollitia quod dolorem inventore dolore molestias delectus repudiandae explicabo aliquam quaerat commodi aperiam! Doloremque delectus est fugit quod aliquid.</p>
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-lg-5">
                         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime, nisi! Quisquam facilis unde odit dicta suscipit, iure, repellat quos officia maxime nesciunt incidunt magnam. Repudiandae, reprehenderit laudantium! Iure vero illum esse voluptatem! Soluta fugit nisi corporis ea delectus rem facere!</p>
                     </div>
-                    <div class="col-auto"> <button type="button" class="btn btn-outline-light"><i class="fa-solid fa-download"></i> Download</button></div>
+                    <div class="col-lg-4 text-center"> <button type="button" class="btn btn-outline-light"><i class="fa-solid fa-download"></i> Download</button></div>
                 </div>
+            </div>
+        </section>
+        <section class="contact-me py-3 py-5-lg">
+            <div class=" container container-md container-xlg">
+                <div class="row text-center">
+                    <div class="col-12 text-uppercase"><h2>Contact me</h2></div>
+                    <div class="col-12"><span class="align-middle position-relative star-icon"><i class="fa-solid fa-star"></i></span></div>
+                </div>
+                <form action="./about.html">
+                    <div class="row-column">
+                        <div class="col-12">
+                            <div class="d-flex">Name <div class="flex-grow-1"><input type="text" name="name"></div></div>
+                        </div>
+                        <div class="col-12">
+                            <div class="d-flex">Email Adress <div class="flex-grow-1"><input type="email" name="email"></div></div>
+                        </div>
+                        <div class="col-12">
+                            <div class="d-flex">Phone Number <div class="flex-grow-1"><input type="tel" name="phone-number"></div></div>
+                        </div>
+                        <div class="col-12">
+                            <div>Message <div class="flex-grow-1"><textarea name="Message" id="" cols="30" rows="10"></textarea></div></div>
+                        </div>
+                        <div class="col-12"><div><input type="submit" value="Send"></div></div>
+                    </div>
+                </form>
             </div>
         </section>
 

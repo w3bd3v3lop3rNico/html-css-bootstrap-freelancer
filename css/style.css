@@ -108,7 +108,29 @@ a {
     background-color: var(--light);
 }
 
+.contact-me .star-icon::before {
+    content: "";
+    position: absolute;
+    display: inline;
+    height: 5px;
+    width: 145px;
+    border-radius: 999px;
+    top: 10px;
+    right: 40px;
+    background-color: var(--dark-gray);
+    }
 
+.contact-me .star-icon::after {
+    content: "";
+    position: absolute;
+    display: inline;
+    height: 5px;
+    width: 145px;
+    border-radius: 999px;
+    top: 10px;
+    left: 40px;
+    background-color: var(--dark-gray);
+    }
 
 
 /* @media (min-width: 576px) { ... }
