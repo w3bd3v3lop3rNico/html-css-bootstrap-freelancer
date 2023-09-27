@@ -36,6 +36,10 @@ a {
     background-color: var(--aquamarine);
 }
 
+.contacts {
+    background-color: var(--light-blue);
+}
+
 .hero .star-icon::before {
     content: "";
     position: absolute;
